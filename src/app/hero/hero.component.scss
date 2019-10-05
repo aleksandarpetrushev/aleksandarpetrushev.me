@@ -1,0 +1,27 @@
+.hero {
+  padding-top: 2em;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-body {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 3rem 1.5rem;
+}
+
+.title {
+  color: #293347;
+  font-weight: 800;
+  word-break: break-word;
+  margin-bottom: 24px;
+}
+
+.subtitle {
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  word-break: break-word;
+}

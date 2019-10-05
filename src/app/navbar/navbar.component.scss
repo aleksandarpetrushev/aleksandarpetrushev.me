@@ -1,0 +1,33 @@
+.navbar-brand {
+  font-size: 25px;
+  margin-left: 40%;
+  color: #b141c0 !important;
+}
+
+#navbarNav {
+  display: flex;
+}
+
+.nav-link {
+  border: 2px solid #b141c0;
+  border-radius: 20px;
+  height: 45px;
+  width: 100px;
+  text-align: center;
+  transition: all 0.4s ease 0s;
+  font-weight: 400;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.nav-link:hover {
+  color: white !important;
+  background-color: #b141c0;
+  border-color: #b141c0 !important;
+  transition: all 0.4s ease 0s;
+}
+
+.navbar {
+  min-height: 3.25rem;
+  position: relative;
+}
