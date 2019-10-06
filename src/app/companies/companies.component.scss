@@ -1,0 +1,50 @@
+.columns {
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.title {
+  color: #293347;
+  font-weight: 800;
+  line-height: 1.125;
+  word-break: break-word;
+  font-family: "eurostile",sans-serif;
+}
+
+.client-grid {
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .client-logo {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-weight: 700 !important;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .column {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .columns {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .section {
+      padding: 9rem 1.5rem;
+  }
+
+  .title {
+    font-size: 2rem !important;
+  }
+}

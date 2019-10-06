@@ -31,6 +31,10 @@
   cursor: pointer;
 }
 
+.section {
+  border-bottom: 2px solid #E6ECF8;
+}
+
 @media screen and (max-width: 430px) {
   .project-image {
     max-width: 100%;
