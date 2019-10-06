@@ -9,7 +9,7 @@
 }
 
 :host ::ng-deep nav {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 .title {
@@ -24,6 +24,10 @@
   border-top: 2px solid #a3a6ac;
 }
 
+h1 {
+  word-break: break-word;
+}
+
 :host ::ng-deep app-footer {
   max-height: 500px !important;
 }
@@ -31,6 +35,10 @@
 @media screen and (max-width: 768px) {
   .title {
     font-size: 2rem !important;
+  }
+
+  .email {
+    font-size: 20pt !important;
   }
 }
 
