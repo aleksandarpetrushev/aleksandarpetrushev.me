@@ -1,0 +1,86 @@
+.skills {
+  margin-top: -14rem;
+  padding-bottom: 1rem;
+}
+
+.box {
+  padding: 0;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+  color: #293347;
+  display: block;
+  width: 400px;
+}
+
+.content {
+  font-family: "europa",sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columns {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.column {
+  padding: 50px 30px;
+  border-bottom: 1px solid rgb(164, 168, 177);
+  border-right: 0px solid rgb(164, 168, 177);
+}
+
+.is-skill-icon {
+  height: 48px;
+  width: auto;
+  display: inline-block;
+}
+
+.image {
+  margin: 0 auto 2em;
+}
+
+.title {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-family: "eurostile",sans-serif;
+  font-weight: 800;
+  color: #293347;
+  line-height: 1.125;
+  word-break: break-word;
+  font-size: 1.5rem !important;
+}
+
+.content p:not(:last-child) {
+  margin-bottom: 2em;
+}
+
+.list-title {
+  margin-top: 50px;
+  margin-bottom: 8px !important;
+}
+
+.has-text-weight-normal {
+  font-weight: 400 !important;
+}
+
+.has-text-primary {
+  color: #b141c0 !important;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 700px) {
+  p {
+    font-size: 18px;
+  }
+}

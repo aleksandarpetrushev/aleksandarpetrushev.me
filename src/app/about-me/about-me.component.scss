@@ -1,0 +1,27 @@
+.section {
+  background-color: #b141c0;
+  padding-bottom: 14rem;
+  color: #fff;
+}
+
+.title {
+  margin-bottom: 2.5rem;
+  font-weight: 800;
+  line-height: 1.125;
+  word-break: break-word;
+  font-size: 2rem;
+}
+
+.subtitle {
+  font-family: "europa",sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  word-break: break-word;
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 1.5rem !important;
+  }
+}

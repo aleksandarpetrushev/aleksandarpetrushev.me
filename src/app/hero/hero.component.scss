@@ -24,4 +24,34 @@
   line-height: 1.5;
   font-size: 1.25rem;
   word-break: break-word;
+  margin-bottom: 1.5rem;
+}
+
+.avatar {
+  width: 250px;
+  height: 250px;
+  margin: 2rem 0;
+}
+
+.hero-foot {
+  padding: 0rem 1.5rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.is-bottom {
+  height: auto;
+  max-width: 100%;
+  margin-bottom: -0.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 2rem !important;
+    line-height: 1.125;
+  }
+
+  .hero-body {
+    padding: 1rem 0.5rem;
+  }
 }

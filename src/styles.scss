@@ -12,3 +12,33 @@ body {
 .is-white {
   background-color: #fff;
 }
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: .75rem;
+}
+
+.columns {
+  margin-left: -.75rem;
+  margin-right: -.75rem;
+  margin-top: -.75rem;
+}
+
+.columns:last-child {
+  margin-bottom: -.75rem;
+}
+
+.section {
+  padding: 5rem 1.5rem;
+}
+
+.is-centered {
+  justify-content: center;
+}
+
+.is-narrow {
+  max-width: 1200px;
+}
