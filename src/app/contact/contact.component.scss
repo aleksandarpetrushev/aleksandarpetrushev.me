@@ -50,6 +50,7 @@ form {
   font-size: 1rem;
   position: relative;
   text-align: left;
+  display: flex;
 }
 
 .input {
@@ -86,10 +87,11 @@ form {
   transition: all 0.4s ease 0s;
   font-weight: 400;
   font-size: 18px;
-  margin-right: 10px;
   height: 40px;
   width: 200px;
   margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button:hover {
