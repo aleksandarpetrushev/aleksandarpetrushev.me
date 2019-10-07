@@ -12,6 +12,7 @@ import { CompaniesComponent } from './companies/companies.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { MainComponent } from './main/main.component';
+import { SuccessComponent } from './success/success.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MainComponent } from './main/main.component';
     CompaniesComponent,
     FooterComponent,
     ContactComponent,
-    MainComponent
+    MainComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,

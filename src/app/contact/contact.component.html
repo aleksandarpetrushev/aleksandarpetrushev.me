@@ -4,11 +4,52 @@
     <div class="container">
       <div class="columns is-centered">
         <div class="column"><img class="avatar" src="../../assets/avatar.svg">
-          <h1 class="title">Thanks for taking the time to contact me. Feel free to send me an email at:</h1>
-          <a href="mailto:aleksandarpetrushev27@gmail.com"><h1 class="email">aleksandarpetrushev27@gmail.com</h1></a>
+          <h1 class="title">Thanks for taking the time to contact me. What can I help you with?</h1>
         </div>
       </div>
     </div>
   </section>
 </div>
-<app-footer></app-footer>
+<section>
+  <div class="container">
+    <form id="form" accept-charset="UTF-8" action="https://usebasin.com/f/6f025f9579a3" method="POST">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <div class="field">
+            <label class="label">Name</label>
+            <div class="control is-expanded">
+              <input class="input is-large" name="name" type="text" required="">
+            </div>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control is-expanded">
+              <input class="input is-large" name="email" type="email" required="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="field">
+            <label class="label">Message</label>
+            <div class="control is-expanded">
+              <textarea class="textarea is-large" name="message" rows="5" required=""></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <div class="field">
+            <div class="control">
+              <button class="button" [routerLink]="['/success']">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
