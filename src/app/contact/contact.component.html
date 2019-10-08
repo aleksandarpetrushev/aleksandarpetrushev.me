@@ -12,13 +12,13 @@
 </div>
 <section>
   <div class="container">
-    <form id="form" accept-charset="UTF-8" action="https://usebasin.com/f/6f025f9579a3" method="POST">
+    <form id="form" accept-charset="UTF-8" [noValidate]="false" action="https://usebasin.com/f/6f025f9579a3" method="POST">
       <div class="columns is-centered">
         <div class="column is-half">
           <div class="field">
             <label class="label">Name</label>
             <div class="control is-expanded">
-              <input class="input is-large" name="name" type="text" required="">
+              <input class="input is-large" name="name" type="text" required>
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@
           <div class="field">
             <label class="label">Email</label>
             <div class="control is-expanded">
-              <input class="input is-large" name="email" type="email" required="">
+              <input class="input is-large" name="email" type="email" required>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@
           <div class="field">
             <label class="label">Message</label>
             <div class="control is-expanded">
-              <textarea class="textarea is-large" name="message" rows="5" required=""></textarea>
+              <textarea class="textarea is-large" name="message" rows="5" required></textarea>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@
         <div class="column is-one-third">
           <div class="field">
             <div class="control">
-              <button class="button" [routerLink]="['/success']">Submit</button>
+              <button type="submit" class="button">Submit</button>
             </div>
           </div>
         </div>
@@ -53,3 +53,4 @@
     </form>
   </div>
 </section>
+<script src="https://usebasin.com/f/6f025f9579a3/ahoy.js" async defer></script>
