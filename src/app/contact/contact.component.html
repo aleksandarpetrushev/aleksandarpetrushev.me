@@ -12,45 +12,38 @@
 </div>
 <section>
   <div class="container">
-    <form id="form" accept-charset="UTF-8" [noValidate]="false" action="https://usebasin.com/f/6f025f9579a3" method="POST">
+    <form id="form" accept-charset="UTF-8" [noValidate]="false" action="https://www.enformed.io/51zwsypq" method="POST">
       <div class="columns is-centered">
-        <div class="column is-half">
-          <div class="field">
+          <div class="column is-half">
             <label class="label">Name</label>
-            <div class="control is-expanded">
-              <input class="input is-large" name="name" type="text" required>
+            <div class="control">
+              <input class="input" name="name" type="text" required>
             </div>
           </div>
-        </div>
-        <div class="column is-half">
-          <div class="field">
-            <label class="label">Email</label>
-            <div class="control is-expanded">
-              <input class="input is-large" name="email" type="email" required>
-            </div>
+          <div class="column is-half">
+              <label class="label">Email</label>
+              <div class="control">
+                <input class="input" name="email" type="email" required>
+              </div>
           </div>
         </div>
-      </div>
-      <div class="columns is-centered">
-        <div class="column">
-          <div class="field">
+        <div class="columns is-centered">
+          <div class="column">
             <label class="label">Message</label>
-            <div class="control is-expanded">
-              <textarea class="textarea is-large" name="message" rows="5" required></textarea>
+            <div class="control">
+              <textarea class="textarea" name="message" rows="5" required></textarea>
             </div>
           </div>
         </div>
-      </div>
-      <div class="columns is-centered">
-        <div class="column is-one-third">
-          <div class="field">
+        <div class="columns is-centered">
+          <div class="column is-one-third">
             <div class="control">
               <button type="submit" class="button">Submit</button>
             </div>
           </div>
         </div>
-      </div>
+      <input type="hidden" name="*redirect" value="https://localhost:4200/success" />
+      <input type="hidden" name="*honeypot" />
     </form>
   </div>
 </section>
-<script src="https://usebasin.com/f/6f025f9579a3/ahoy.js" async defer></script>
