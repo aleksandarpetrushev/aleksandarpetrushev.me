@@ -7,7 +7,7 @@ import { SuccessComponent } from './success/success.component';
 
 const routes: Routes = [
   {
-    path: 'main',
+    path: '',
     component: MainComponent
   },
   {
@@ -17,11 +17,6 @@ const routes: Routes = [
   {
     path: 'success',
     component: SuccessComponent
-  },
-  {
-    path: '',
-    redirectTo: '/main',
-    pathMatch: 'full'
   }
 ];
 
