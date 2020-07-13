@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
 import { MainComponent } from './main/main.component';
 import { SuccessComponent } from './success/success.component';
+import { GameComponent } from './game/game.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'success',
     component: SuccessComponent
+  },
+  {
+    path: 'ninja-jumper',
+    component: GameComponent
   }
 ];
 

@@ -15,6 +15,7 @@ import { MainComponent } from './main/main.component';
 import { SuccessComponent } from './success/success.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { GameComponent } from './game/game.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     ContactComponent,
     MainComponent,
-    SuccessComponent
+    SuccessComponent,
+    GameComponent
   ],
   imports: [
     BrowserModule,
